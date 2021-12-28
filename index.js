@@ -44,4 +44,7 @@ module.exports = {
     new StaticApp({ path: "/", src: "public" }),
     new AdminUIApp({ enableDefaultRoute: true }),
   ],
+  configureExpress: (app) => {
+    app.set("trust proxy", true);
+  },
 };
