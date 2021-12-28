@@ -1,0 +1,21 @@
+{
+  "name": "keystone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "keystone"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@keystonejs/adapter-mongoose": "^11.2.2",
+    "@keystonejs/app-admin-ui": "^7.5.2",
+    "@keystonejs/app-graphql": "^6.3.2",
+    "@keystonejs/app-static": "^5.2.2",
+    "@keystonejs/fields": "^22.1.3",
+    "@keystonejs/keystone": "^19.3.3"
+  }
+}
