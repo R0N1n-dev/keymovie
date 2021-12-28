@@ -12,6 +12,7 @@ const keystone = new Keystone({
   adapter: new Adapter({
     mongoUri: process.env.MONGOURI || "mongodb://localhost/keystone",
   }),
+  port: process.env.PORT || 3000,
   cookie: {
     secure: process.env.NODE_ENV === "production",
     maxAge: 1000 * 60 * 60 * 24 * 30,
