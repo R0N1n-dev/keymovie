@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "keystone dev",
     "build": "cross-env NODE_ENV=production keystone build",
-    "start": "cross-env NODE_ENV=production keystone start"
+    "start": "cross-env NODE_ENV=production keystone start",
+    "serve": "keystone build && keystone start"
   },
   "keywords": [],
   "author": "",
