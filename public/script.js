@@ -137,7 +137,7 @@ document.getElementById("movie-app").parentNode.innerHTML = `
       <form class="js-add-movie-form">
         <input required name="add-item-movie" placeholder="Add new movie" class="form-input add-item" />
         <input required name="add-item-rating" placeholder="Add rating" class="form-input add-item" />
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" class="submit">
       </form>
     </div>
     <h2 class="app-heading">Movie List</h2>

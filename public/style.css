@@ -111,5 +111,20 @@ body {
 .delete-icon {
   width: 20px;
   height: 20px;
-  fill: hsla(220, 84%, 60%, 1);
+  fill: rgba(104, 135, 197, 0.822);
+}
+
+.submit {
+  border: none;
+  outline: none;
+  width: 5rem;
+  height: 2rem;
+  font-weight: bold;
+  background-color: rgba(102, 115, 238, 0.829);
+  border-radius: 10px;
+}
+
+.submit:hover {
+  background-color: rgba(65, 75, 161, 0.829);
+  border-radius: 12px 10px;
 }
