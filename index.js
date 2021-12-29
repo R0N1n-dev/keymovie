@@ -10,7 +10,9 @@ const PROJECT_NAME = "Movie Rating";
 const keystone = new Keystone({
   name: PROJECT_NAME,
   adapter: new Adapter({
-    mongoUri: process.env.MONGOURI || "mongodb://localhost/keystone",
+    mongoUri:
+      process.env.MONGOURI ||
+      "mongodb+srv://ronin:harshn355@cluster0.ej1tv.mongodb.net/keymovie?retryWrites=true&w=majority", //"mongodb://localhost/keystone",
   }),
   port: process.env.PORT || 3000,
   cookie: {
